@@ -1,4 +1,5 @@
 // Aluno: Ricardo Ryu Magalhães Makino
+// https://github.com/ryumakino/trabalho1
 
 const mysql = require("mysql2");
 const connection = mysql.createConnection({
