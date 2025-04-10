@@ -1,0 +1,45 @@
+@import "./base.css";
+@import "./pages/list.css";
+@import "./components/buttons.css";
+  
+  /* Container principal */
+  .person-list {
+    min-width: 800px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Cabeçalho da lista */
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+  }
+  
+  .title h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .title button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .title button:hover {
+    background-color: #0056b3;
+    transform: translateY(-1px);
+  }
